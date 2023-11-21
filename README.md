@@ -1,4 +1,4 @@
-Orbital Edge Computing ASPLOS 2020 Artifact Software
+HIL Simulation using as basis the "Orbital Edge Computing ASPLOS 2020 Artifact Software"
 
 This software artifact simulates orbital nanosatellites constellations, using as data for the simulation, data coming from a real satellite.
 
