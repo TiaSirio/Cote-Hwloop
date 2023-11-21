@@ -1,0 +1,2 @@
+MQTT error [-1]
+MQTT error [-1]: TCP connect timeout

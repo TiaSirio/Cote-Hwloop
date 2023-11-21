@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="HWLoop"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/ubuntu/git-repos/cote-hwloop/artifacts/hwloop/source/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j48 -f &quot;/home/ubuntu/git-repos/cote-hwloop/artifacts/hwloop/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j48 -f &quot;/home/ubuntu/git-repos/cote-hwloop/artifacts/hwloop/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j48 -f &quot;/home/ubuntu/git-repos/cote-hwloop/artifacts/hwloop/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j48 -f &quot;/home/ubuntu/git-repos/cote-hwloop/artifacts/hwloop/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hwloop">
+				<Option output="/home/ubuntu/git-repos/cote-hwloop/artifacts/hwloop/source/cmake-build-debug/hwloop" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ubuntu/git-repos/cote-hwloop/artifacts/hwloop/source/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/ubuntu/git-repos/cote-hwloop/artifacts/hwloop/source/../../../software/satsim/ilog/include"/>
+					<Add directory="/home/ubuntu/git-repos/cote-hwloop/artifacts/hwloop/source/../../../software/satsim/isim/include"/>
+					<Add directory="/home/ubuntu/git-repos/cote-hwloop/artifacts/hwloop/source/../../../software/satsim/iwork/include"/>
+					<Add directory="/home/ubuntu/git-repos/cote-hwloop/artifacts/hwloop/source/../../../software/satsim/logger/include"/>
+					<Add directory="/home/ubuntu/git-repos/cote-hwloop/artifacts/hwloop/source/../../../software/satsim/job/include"/>
+					<Add directory="/home/ubuntu/git-repos/cote-hwloop/artifacts/hwloop/source/../../../software/satsim/energy-harvester/include"/>
+					<Add directory="/home/ubuntu/git-repos/cote-hwloop/artifacts/hwloop/source/../../../software/satsim/simple-solar-cell/include"/>
+					<Add directory="/home/ubuntu/git-repos/cote-hwloop/artifacts/hwloop/source/../../../software/satsim/energy-storage/include"/>
+					<Add directory="/home/ubuntu/git-repos/cote-hwloop/artifacts/hwloop/source/../../../software/satsim/capacitor/include"/>
+					<Add directory="/home/ubuntu/git-repos/cote-hwloop/artifacts/hwloop/source/../../../software/satsim/energy-consumer/include"/>
+					<Add directory="/home/ubuntu/git-repos/cote-hwloop/artifacts/hwloop/source/../../../software/satsim/cubesat/include"/>
+					<Add directory="/home/ubuntu/git-repos/cote-hwloop/artifacts/hwloop/source/../../../software/satsim/eh-system/include"/>
+					<Add directory="/home/ubuntu/git-repos/cote-hwloop/artifacts/hwloop/source/../../../software/satsim/orbit/include"/>
+					<Add directory="/home/ubuntu/git-repos/cote-hwloop/artifacts/hwloop/source/../../../software/satsim/satellite/include"/>
+					<Add directory="/home/ubuntu/git-repos/cote-hwloop/artifacts/hwloop/source/../../../software/satsim/eh-satellite/include"/>
+					<Add directory="/home/ubuntu/git-repos/cote-hwloop/artifacts/hwloop/source/../../../software/satsim/task/include"/>
+					<Add directory="/home/ubuntu/git-repos/cote-hwloop/artifacts/hwloop/source/../../../../paho.mqtt.c/src"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j48 -f &quot;/home/ubuntu/git-repos/cote-hwloop/artifacts/hwloop/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 hwloop"/>
+					<CompileFile command="/usr/bin/make -j48 -f &quot;/home/ubuntu/git-repos/cote-hwloop/artifacts/hwloop/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j48 -f &quot;/home/ubuntu/git-repos/cote-hwloop/artifacts/hwloop/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j48 -f &quot;/home/ubuntu/git-repos/cote-hwloop/artifacts/hwloop/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hwloop/fast">
+				<Option output="/home/ubuntu/git-repos/cote-hwloop/artifacts/hwloop/source/cmake-build-debug/hwloop" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ubuntu/git-repos/cote-hwloop/artifacts/hwloop/source/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/ubuntu/git-repos/cote-hwloop/artifacts/hwloop/source/../../../software/satsim/ilog/include"/>
+					<Add directory="/home/ubuntu/git-repos/cote-hwloop/artifacts/hwloop/source/../../../software/satsim/isim/include"/>
+					<Add directory="/home/ubuntu/git-repos/cote-hwloop/artifacts/hwloop/source/../../../software/satsim/iwork/include"/>
+					<Add directory="/home/ubuntu/git-repos/cote-hwloop/artifacts/hwloop/source/../../../software/satsim/logger/include"/>
+					<Add directory="/home/ubuntu/git-repos/cote-hwloop/artifacts/hwloop/source/../../../software/satsim/job/include"/>
+					<Add directory="/home/ubuntu/git-repos/cote-hwloop/artifacts/hwloop/source/../../../software/satsim/energy-harvester/include"/>
+					<Add directory="/home/ubuntu/git-repos/cote-hwloop/artifacts/hwloop/source/../../../software/satsim/simple-solar-cell/include"/>
+					<Add directory="/home/ubuntu/git-repos/cote-hwloop/artifacts/hwloop/source/../../../software/satsim/energy-storage/include"/>
+					<Add directory="/home/ubuntu/git-repos/cote-hwloop/artifacts/hwloop/source/../../../software/satsim/capacitor/include"/>
+					<Add directory="/home/ubuntu/git-repos/cote-hwloop/artifacts/hwloop/source/../../../software/satsim/energy-consumer/include"/>
+					<Add directory="/home/ubuntu/git-repos/cote-hwloop/artifacts/hwloop/source/../../../software/satsim/cubesat/include"/>
+					<Add directory="/home/ubuntu/git-repos/cote-hwloop/artifacts/hwloop/source/../../../software/satsim/eh-system/include"/>
+					<Add directory="/home/ubuntu/git-repos/cote-hwloop/artifacts/hwloop/source/../../../software/satsim/orbit/include"/>
+					<Add directory="/home/ubuntu/git-repos/cote-hwloop/artifacts/hwloop/source/../../../software/satsim/satellite/include"/>
+					<Add directory="/home/ubuntu/git-repos/cote-hwloop/artifacts/hwloop/source/../../../software/satsim/eh-satellite/include"/>
+					<Add directory="/home/ubuntu/git-repos/cote-hwloop/artifacts/hwloop/source/../../../software/satsim/task/include"/>
+					<Add directory="/home/ubuntu/git-repos/cote-hwloop/artifacts/hwloop/source/../../../../paho.mqtt.c/src"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j48 -f &quot;/home/ubuntu/git-repos/cote-hwloop/artifacts/hwloop/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 hwloop/fast"/>
+					<CompileFile command="/usr/bin/make -j48 -f &quot;/home/ubuntu/git-repos/cote-hwloop/artifacts/hwloop/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j48 -f &quot;/home/ubuntu/git-repos/cote-hwloop/artifacts/hwloop/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j48 -f &quot;/home/ubuntu/git-repos/cote-hwloop/artifacts/hwloop/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/ubuntu/git-repos/cote-hwloop/artifacts/hwloop/source/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j48 -f &quot;/home/ubuntu/git-repos/cote-hwloop/artifacts/hwloop/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j48 -f &quot;/home/ubuntu/git-repos/cote-hwloop/artifacts/hwloop/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j48 -f &quot;/home/ubuntu/git-repos/cote-hwloop/artifacts/hwloop/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j48 -f &quot;/home/ubuntu/git-repos/cote-hwloop/artifacts/hwloop/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/ubuntu/git-repos/cote-hwloop/artifacts/hwloop/source/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j48 -f &quot;/home/ubuntu/git-repos/cote-hwloop/artifacts/hwloop/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j48 -f &quot;/home/ubuntu/git-repos/cote-hwloop/artifacts/hwloop/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j48 -f &quot;/home/ubuntu/git-repos/cote-hwloop/artifacts/hwloop/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j48 -f &quot;/home/ubuntu/git-repos/cote-hwloop/artifacts/hwloop/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/ubuntu/git-repos/cote-hwloop/artifacts/hwloop/source/hwloop.cpp">
+			<Option target="hwloop"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/git-repos/cote-hwloop/software/satsim/capacitor/source/Capacitor.cpp">
+			<Option target="hwloop"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/git-repos/cote-hwloop/software/satsim/cubesat/source/CubeSat.cpp">
+			<Option target="hwloop"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/git-repos/cote-hwloop/software/satsim/eh-satellite/source/EHSatellite.cpp">
+			<Option target="hwloop"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/git-repos/cote-hwloop/software/satsim/eh-system/source/EHSystem.cpp">
+			<Option target="hwloop"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/git-repos/cote-hwloop/software/satsim/energy-consumer/source/EnergyConsumer.cpp">
+			<Option target="hwloop"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/git-repos/cote-hwloop/software/satsim/energy-harvester/source/EnergyHarvester.cpp">
+			<Option target="hwloop"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/git-repos/cote-hwloop/software/satsim/energy-storage/source/EnergyStorage.cpp">
+			<Option target="hwloop"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/git-repos/cote-hwloop/software/satsim/job/source/Job.cpp">
+			<Option target="hwloop"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/git-repos/cote-hwloop/software/satsim/logger/source/Logger.cpp">
+			<Option target="hwloop"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/git-repos/cote-hwloop/software/satsim/orbit/source/Orbit.cpp">
+			<Option target="hwloop"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/git-repos/cote-hwloop/software/satsim/satellite/source/Satellite.cpp">
+			<Option target="hwloop"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/git-repos/cote-hwloop/software/satsim/simple-solar-cell/source/SimpleSolarCell.cpp">
+			<Option target="hwloop"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/git-repos/cote-hwloop/software/satsim/task/source/Task.cpp">
+			<Option target="hwloop"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/git-repos/cote-hwloop/artifacts/hwloop/source/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

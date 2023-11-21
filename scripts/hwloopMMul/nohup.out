@@ -1,0 +1,131 @@
+Found Makefile in directory: mandelbrot_set
+make: Entering directory '/home/ubuntu/git-repos/cote-hwloop/scripts/cube_sat_scripts/sim/cexec/c_tasks/general/mandelbrot_set'
+gcc -g -o mandelbrot_set mandelbrot_set.c -lm
+make: Leaving directory '/home/ubuntu/git-repos/cote-hwloop/scripts/cube_sat_scripts/sim/cexec/c_tasks/general/mandelbrot_set'
+Found Makefile in directory: image_median_filter
+make: Entering directory '/home/ubuntu/git-repos/cote-hwloop/scripts/cube_sat_scripts/sim/cexec/c_tasks/image/image_median_filter'
+gcc -g -o image_median_filter image_median_filter.c
+make: Leaving directory '/home/ubuntu/git-repos/cote-hwloop/scripts/cube_sat_scripts/sim/cexec/c_tasks/image/image_median_filter'
+Found Makefile in directory: image_processing
+make: Entering directory '/home/ubuntu/git-repos/cote-hwloop/scripts/cube_sat_scripts/sim/cexec/c_tasks/image/image_processing'
+gcc -g -o black_white black_white.c
+gcc -g -o image_bright image_bright.c
+gcc -g -o image_dark image_dark.c
+gcc -g -o image_rgbtogray image_rgbtogray.c
+gcc -g -o image_rotate image_rotate.c
+gcc -g -o negative_image negative_image.c
+make: Leaving directory '/home/ubuntu/git-repos/cote-hwloop/scripts/cube_sat_scripts/sim/cexec/c_tasks/image/image_processing'
+Found Makefile in directory: basicmath
+make: Entering directory '/home/ubuntu/git-repos/cote-hwloop/scripts/cube_sat_scripts/sim/cexec/c_tasks/mibench/basicmath'
+gcc -static -O3 -g basicmath_small.c   rad2deg.c  cubic.c   isqrt.c -o basicmath_small -lm
+gcc -static -O3 -g basicmath_large.c   rad2deg.c  cubic.c   isqrt.c -o basicmath_large -lm
+make: Leaving directory '/home/ubuntu/git-repos/cote-hwloop/scripts/cube_sat_scripts/sim/cexec/c_tasks/mibench/basicmath'
+Found Makefile in directory: fft
+make: Entering directory '/home/ubuntu/git-repos/cote-hwloop/scripts/cube_sat_scripts/sim/cexec/c_tasks/mibench/fft'
+gcc -static -O3 -g -c main.c
+main.c: In function ‘main’:
+main.c:27:13: warning: implicit declaration of function ‘strncmp’ [-Wimplicit-function-declaration]
+   invfft = !strncmp(argv[3],"-i",2);
+             ^~~~~~~
+main.c:66:2: warning: implicit declaration of function ‘fft_float’ [-Wimplicit-function-declaration]
+  fft_float (MAXSIZE,invfft,RealIn,ImagIn,RealOut,ImagOut);
+  ^~~~~~~~~
+gcc -static -O3 -g -c fftmisc.c
+gcc -static -O3 -g -c fourierf.c
+gcc  -static -O3 -g main.o fftmisc.o  fourierf.o -o fft -lm
+make: Leaving directory '/home/ubuntu/git-repos/cote-hwloop/scripts/cube_sat_scripts/sim/cexec/c_tasks/mibench/fft'
+Found Makefile in directory: qsort
+make: Entering directory '/home/ubuntu/git-repos/cote-hwloop/scripts/cube_sat_scripts/sim/cexec/c_tasks/mibench/qsort'
+gcc -static -g qsort_small.c -O3 -o qsort_small -lm
+qsort_small.c: In function ‘main’:
+qsort_small.c:45:25: warning: format ‘%s’ expects argument of type ‘char *’, but argument 3 has type ‘char (*)[128]’ [-Wformat=]
+     while((fscanf(fp, "%s", &array[count].qstring) == 1) && (count < MAXARRAY)) {
+                        ~^   ~~~~~~~~~~~~~~~~~~~~~
+gcc -static -g qsort_large.c -O3 -o qsort_large -lm
+qsort_large.c: In function ‘main’:
+qsort_large.c:42:7: warning: implicit declaration of function ‘strcat’ [-Wimplicit-function-declaration]
+       strcat(datasetAddress, argv[1]);
+       ^~~~~~
+qsort_large.c:42:7: warning: incompatible implicit declaration of built-in function ‘strcat’
+qsort_large.c:42:7: note: include ‘<string.h>’ or provide a declaration of ‘strcat’
+qsort_large.c:4:1:
++#include <string.h>
+ 
+qsort_large.c:42:7:
+       strcat(datasetAddress, argv[1]);
+       ^~~~~~
+make: Leaving directory '/home/ubuntu/git-repos/cote-hwloop/scripts/cube_sat_scripts/sim/cexec/c_tasks/mibench/qsort'
+Found Makefile in directory: susan
+make: Entering directory '/home/ubuntu/git-repos/cote-hwloop/scripts/cube_sat_scripts/sim/cexec/c_tasks/mibench/susan'
+gcc -static -O4 -g -o susan_corner_detector susan_corner_detector.c -lm
+susan_corner_detector.c: In function ‘getint’:
+susan_corner_detector.c:353:9: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+         fgets(dummy,9000,fd);
+         ^~~~~~~~~~~~~~~~~~~~
+gcc -static -O4 -g -o susan_edge_detector susan_edge_detector.c -lm
+susan_edge_detector.c: In function ‘getint’:
+susan_edge_detector.c:353:7: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+       fgets(dummy,9000,fd);
+       ^~~~~~~~~~~~~~~~~~~~
+gcc -static -O4 -g -o susan_smoothing susan_smoothing.c -lm
+susan_smoothing.c: In function ‘getint’:
+susan_smoothing.c:353:7: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+       fgets(dummy,9000,fd);
+       ^~~~~~~~~~~~~~~~~~~~
+make: Leaving directory '/home/ubuntu/git-repos/cote-hwloop/scripts/cube_sat_scripts/sim/cexec/c_tasks/mibench/susan'
+Found Makefile in directory: filter_c
+make: Entering directory '/home/ubuntu/git-repos/cote-hwloop/scripts/cube_sat_scripts/sim/cexec/c_tasks/signal/filter_c'
+gcc -Wall -Wshadow -O3 -g -march=native -c low_pass.c -o low_pass.o
+gcc -Wall -Wshadow -O3 -g -march=native -c filter.c -o filter.o
+gcc -Wall -Wshadow -O3 -g -march=native -c high_pass.c -o high_pass.o
+gcc -Wall -Wshadow -O3 -g -march=native -c band_pass.c -o band_pass.o
+gcc -Wall -Wshadow -O3 -g -march=native -c band_stop.c -o band_stop.o
+gcc -o low_pass low_pass.o filter.o -lm
+gcc -o high_pass high_pass.o filter.o -lm
+gcc -o band_pass band_pass.o filter.o -lm
+gcc -o band_stop band_stop.o filter.o -lm
+make: Leaving directory '/home/ubuntu/git-repos/cote-hwloop/scripts/cube_sat_scripts/sim/cexec/c_tasks/signal/filter_c'
+Found Makefile in directory: fwht
+make: Entering directory '/home/ubuntu/git-repos/cote-hwloop/scripts/cube_sat_scripts/sim/cexec/c_tasks/signal/fwht'
+gcc -Wall -g -o fwht fwht-test.c
+make: Leaving directory '/home/ubuntu/git-repos/cote-hwloop/scripts/cube_sat_scripts/sim/cexec/c_tasks/signal/fwht'
+Found Makefile in directory: mandelbrot_set
+make: Entering directory '/home/ubuntu/git-repos/cote-hwloop/scripts/cube_sat_scripts/sim/cexec/c_tasks/general/mandelbrot_set'
+rm -f mandelbrot_set
+make: Leaving directory '/home/ubuntu/git-repos/cote-hwloop/scripts/cube_sat_scripts/sim/cexec/c_tasks/general/mandelbrot_set'
+Found Makefile in directory: image_median_filter
+make: Entering directory '/home/ubuntu/git-repos/cote-hwloop/scripts/cube_sat_scripts/sim/cexec/c_tasks/image/image_median_filter'
+rm -f image_median_filter
+make: Leaving directory '/home/ubuntu/git-repos/cote-hwloop/scripts/cube_sat_scripts/sim/cexec/c_tasks/image/image_median_filter'
+Found Makefile in directory: image_processing
+make: Entering directory '/home/ubuntu/git-repos/cote-hwloop/scripts/cube_sat_scripts/sim/cexec/c_tasks/image/image_processing'
+rm -f black_white image_bright image_dark image_rgbtogray image_rotate negative_image
+make: Leaving directory '/home/ubuntu/git-repos/cote-hwloop/scripts/cube_sat_scripts/sim/cexec/c_tasks/image/image_processing'
+Found Makefile in directory: basicmath
+make: Entering directory '/home/ubuntu/git-repos/cote-hwloop/scripts/cube_sat_scripts/sim/cexec/c_tasks/mibench/basicmath'
+rm -rf basicmath_small basicmath_large output*
+make: Leaving directory '/home/ubuntu/git-repos/cote-hwloop/scripts/cube_sat_scripts/sim/cexec/c_tasks/mibench/basicmath'
+Found Makefile in directory: fft
+make: Entering directory '/home/ubuntu/git-repos/cote-hwloop/scripts/cube_sat_scripts/sim/cexec/c_tasks/mibench/fft'
+rm -rf *.o fft output*
+make: Leaving directory '/home/ubuntu/git-repos/cote-hwloop/scripts/cube_sat_scripts/sim/cexec/c_tasks/mibench/fft'
+Found Makefile in directory: qsort
+make: Entering directory '/home/ubuntu/git-repos/cote-hwloop/scripts/cube_sat_scripts/sim/cexec/c_tasks/mibench/qsort'
+rm -rf qsort_small qsort_large output*
+make: Leaving directory '/home/ubuntu/git-repos/cote-hwloop/scripts/cube_sat_scripts/sim/cexec/c_tasks/mibench/qsort'
+Found Makefile in directory: susan
+make: Entering directory '/home/ubuntu/git-repos/cote-hwloop/scripts/cube_sat_scripts/sim/cexec/c_tasks/mibench/susan'
+rm -rf susan_corner_detector susan_edge_detector susan_smoothing output*
+make: Leaving directory '/home/ubuntu/git-repos/cote-hwloop/scripts/cube_sat_scripts/sim/cexec/c_tasks/mibench/susan'
+Found Makefile in directory: filter_c
+make: Entering directory '/home/ubuntu/git-repos/cote-hwloop/scripts/cube_sat_scripts/sim/cexec/c_tasks/signal/filter_c'
+rm -f low_pass.o filter.o high_pass.o filter.o band_pass.o filter.o band_stop.o filter.o low_pass high_pass band_pass band_stop
+make: Leaving directory '/home/ubuntu/git-repos/cote-hwloop/scripts/cube_sat_scripts/sim/cexec/c_tasks/signal/filter_c'
+Found Makefile in directory: fwht
+make: Entering directory '/home/ubuntu/git-repos/cote-hwloop/scripts/cube_sat_scripts/sim/cexec/c_tasks/signal/fwht'
+rm -f fwht
+make: Leaving directory '/home/ubuntu/git-repos/cote-hwloop/scripts/cube_sat_scripts/sim/cexec/c_tasks/signal/fwht'
+Start configuring fake nanosatellites...
+Configured fake satellites!
+Fake Cubesatsims ready!
+Waiting for satellites connection...

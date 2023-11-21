@@ -1,0 +1,8 @@
+0,susan_edge_detector;"input_large.pgm";"output_large.pgm";"-t 20"
+1,susan_corner_detector;"input_large.pgm";"output_large.pgm"
+2,susan_smoothing;"input_large.pgm";"output_large.pgm";"-3"
+3,low_pass;"100"
+4,high_pass;"100"
+5,band_pass;"100"
+6,band_stop;"100"
+7,fwht;"5"

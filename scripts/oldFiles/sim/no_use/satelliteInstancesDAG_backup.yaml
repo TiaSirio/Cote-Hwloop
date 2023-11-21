@@ -1,0 +1,230 @@
+# Instances of satellite configurator
+# For each satellite define the order of execution of the tasks
+# The arguments given in input for a task must be defined in the bullet points below that task
+# If an argument takes as input the output of the previous task, leave the bullet point blank
+Instance 0:
+- name: 1.c
+  arguments:
+  -
+  to_execute: y
+  dependencies:
+    - 4.c
+    - 5.c
+- name: 2.c
+  arguments:
+  -
+  to_execute: y
+  dependencies:
+    - test3.py
+    - 5.c
+- name: 3.c
+  arguments:
+  -
+  to_execute: y
+  dependencies:
+    - test2.py
+- name: 4.c
+  arguments:
+  -
+  to_execute: y
+  dependencies:
+    - test2.py
+- name: test.py
+  arguments: []
+  to_execute: y
+- name: test2.py
+  arguments: []
+  to_execute: y
+  dependencies:
+    - test3.py
+    - 5.c
+- name: test3.py
+  arguments:
+    - test.py
+  to_execute: y
+  dependencies:
+    - test.py
+- name: 5.c
+  arguments:
+    -
+  to_execute: y
+Instance 1:
+- name: 1.c
+  arguments:
+  -
+  to_execute: n
+- name: 2.c
+  arguments:
+  -
+  to_execute: n
+- name: 3.c
+  arguments:
+  -
+  to_execute: n
+- name: 4.c
+  arguments:
+  -
+  to_execute: n
+- name: 5.c
+  arguments:
+  -
+  to_execute: n
+- name: test.py
+  arguments:
+  -
+  to_execute: n
+- name: test2.py
+  arguments:
+  - test3.py
+  - Insert string -> printed value
+  to_execute: n
+  dependencies:
+  - test3.py
+- name: test3.py
+  arguments:
+  -
+  to_execute: n
+Instance 2:
+- name: 1.c
+  arguments:
+  -
+  to_execute: n
+- name: 2.c
+  arguments:
+  -
+  to_execute: n
+- name: 3.c
+  arguments:
+  -
+  to_execute: n
+- name: 4.c
+  arguments:
+  -
+  to_execute: n
+- name: 5.c
+  arguments:
+  -
+  to_execute: n
+- name: test.py
+  arguments:
+  -
+  to_execute: n
+- name: test2.py
+  arguments:
+  - test3.py
+  - Insert string -> printed value
+  to_execute: n
+  dependencies:
+  - test3.py
+- name: test3.py
+  arguments:
+  -
+  to_execute: n
+Instance 3:
+- name: 1.c
+  arguments:
+  -
+  to_execute: n
+- name: 2.c
+  arguments:
+  -
+  to_execute: n
+- name: 3.c
+  arguments:
+  -
+  to_execute: n
+- name: 4.c
+  arguments:
+  -
+  to_execute: n
+- name: 5.c
+  arguments:
+  -
+  to_execute: n
+- name: test.py
+  arguments:
+  -
+  to_execute: n
+- name: test2.py
+  arguments:
+  - test3.py
+  - Insert string -> printed value
+  to_execute: n
+  dependencies:
+  - test3.py
+- name: test3.py
+  arguments:
+  -
+  to_execute: n
+Instance 4:
+- name: 1.c
+  arguments:
+  -
+  to_execute: n
+- name: 2.c
+  arguments:
+  -
+  to_execute: n
+- name: 3.c
+  arguments:
+  -
+  to_execute: n
+- name: 4.c
+  arguments:
+  -
+  to_execute: n
+- name: 5.c
+  arguments:
+  -
+  to_execute: n
+- name: test.py
+  arguments:
+  -
+  to_execute: n
+- name: test2.py
+  arguments:
+  - test3.py
+  - Insert string -> printed value
+  to_execute: n
+  dependencies:
+  - test3.py
+- name: test3.py
+  arguments:
+  -
+  to_execute: n
+Instance 5:
+- name: 1.c
+  arguments:
+  -
+  to_execute: n
+- name: 2.c
+  arguments:
+  -
+  to_execute: n
+- name: 3.c
+  arguments:
+  -
+  to_execute: n
+- name: 4.c
+  arguments:
+  -
+  to_execute: n
+- name: 5.c
+  arguments:
+  -
+  to_execute: n
+- name: test.py
+  arguments:
+  -
+  to_execute: n
+- name: test2.py
+  arguments:
+  - test3.py
+  - Insert string -> printed value
+  to_execute: n
+  dependencies:
+  - test3.py
+- name: test3.py
+  arguments:
+  -
+  to_execute: n

@@ -1,0 +1,290 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "hwloop"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 40,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 57,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 19,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -std=c++11 -g -fdiagnostics-color=always"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubuntu/git-repos/cote-hwloop/artifacts/hwloop/source/../../../software/satsim/ilog/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubuntu/git-repos/cote-hwloop/artifacts/hwloop/source/../../../software/satsim/isim/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubuntu/git-repos/cote-hwloop/artifacts/hwloop/source/../../../software/satsim/iwork/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubuntu/git-repos/cote-hwloop/artifacts/hwloop/source/../../../software/satsim/logger/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubuntu/git-repos/cote-hwloop/artifacts/hwloop/source/../../../software/satsim/job/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubuntu/git-repos/cote-hwloop/artifacts/hwloop/source/../../../software/satsim/energy-harvester/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubuntu/git-repos/cote-hwloop/artifacts/hwloop/source/../../../software/satsim/simple-solar-cell/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubuntu/git-repos/cote-hwloop/artifacts/hwloop/source/../../../software/satsim/energy-storage/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubuntu/git-repos/cote-hwloop/artifacts/hwloop/source/../../../software/satsim/capacitor/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubuntu/git-repos/cote-hwloop/artifacts/hwloop/source/../../../software/satsim/energy-consumer/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubuntu/git-repos/cote-hwloop/artifacts/hwloop/source/../../../software/satsim/cubesat/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubuntu/git-repos/cote-hwloop/artifacts/hwloop/source/../../../software/satsim/eh-system/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubuntu/git-repos/cote-hwloop/artifacts/hwloop/source/../../../software/satsim/orbit/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubuntu/git-repos/cote-hwloop/artifacts/hwloop/source/../../../software/satsim/satellite/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubuntu/git-repos/cote-hwloop/artifacts/hwloop/source/../../../software/satsim/eh-satellite/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubuntu/git-repos/cote-hwloop/artifacts/hwloop/source/../../../software/satsim/task/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ubuntu/git-repos/cote-hwloop/artifacts/hwloop/source/../../../../paho.mqtt.c/src"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13
+			]
+		}
+	],
+	"id" : "hwloop::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-std=c++11 -g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-rdynamic",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lpaho-mqttpp3",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lpaho-mqtt3as",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "hwloop",
+	"nameOnDisk" : "hwloop",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "hwloop.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/ubuntu/git-repos/cote-hwloop/software/satsim/logger/source/Logger.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/ubuntu/git-repos/cote-hwloop/software/satsim/job/source/Job.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/ubuntu/git-repos/cote-hwloop/software/satsim/energy-harvester/source/EnergyHarvester.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/ubuntu/git-repos/cote-hwloop/software/satsim/simple-solar-cell/source/SimpleSolarCell.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/ubuntu/git-repos/cote-hwloop/software/satsim/energy-storage/source/EnergyStorage.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/ubuntu/git-repos/cote-hwloop/software/satsim/capacitor/source/Capacitor.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/ubuntu/git-repos/cote-hwloop/software/satsim/energy-consumer/source/EnergyConsumer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/ubuntu/git-repos/cote-hwloop/software/satsim/cubesat/source/CubeSat.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/ubuntu/git-repos/cote-hwloop/software/satsim/eh-system/source/EHSystem.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/ubuntu/git-repos/cote-hwloop/software/satsim/orbit/source/Orbit.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/ubuntu/git-repos/cote-hwloop/software/satsim/satellite/source/Satellite.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/ubuntu/git-repos/cote-hwloop/software/satsim/task/source/Task.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/ubuntu/git-repos/cote-hwloop/software/satsim/eh-satellite/source/EHSatellite.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

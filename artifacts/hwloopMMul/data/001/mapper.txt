@@ -1,0 +1,1 @@
+0,black_white;"lena512.bmp";"b_w_lena.bmp",image_bright;"lena512.bmp";"bright_lena.bmp",image_dark;"lena512.bmp";"dark_lena.bmp"

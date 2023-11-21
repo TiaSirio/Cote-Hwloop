@@ -1,0 +1,120 @@
+# Instances of satellite configurator
+# For each satellite define a DAG that represents the order of execution of the tasks
+# For each task we have the following:
+# - The same values as for tasksDAG.yaml
+# - Dependencies -> Generated if we have as argument the name of another task.
+#                   If a task have one or more dependencies, it needs to wait for the completion of the dependencies
+Instance 0:
+- name: test.py
+  priority: 1
+  arguments:
+  -
+  to_execute: y
+- name: test2.py
+  priority: 1
+  arguments:
+  - test3.py
+  - Insert string -> printed value
+  to_execute: y
+  dependencies:
+  - test3.py
+- name: test3.py
+  priority: 10
+  arguments:
+  -
+  to_execute: y
+Instance 1:
+  - name: test.py
+    priority: 1
+    arguments:
+      -
+    to_execute: y
+  - name: test2.py
+    priority: 1
+    arguments:
+      - test.py
+      - Insert string -> printed value
+    to_execute: y
+    dependencies:
+      - test.py
+  - name: test3.py
+    priority: 10
+    arguments:
+      -
+    to_execute: y
+Instance 2:
+  - name: test.py
+    priority: 10
+    arguments:
+      -
+    to_execute: y
+  - name: test2.py
+    priority: 1
+    arguments:
+      - test3.py
+      - Insert string -> printed value
+    to_execute: y
+    dependencies:
+      - test3.py
+  - name: test3.py
+    priority: 10
+    arguments:
+      -
+    to_execute: y
+Instance 3:
+  - name: test.py
+    priority: 1
+    arguments:
+      -
+    to_execute: y
+  - name: test2.py
+    priority: 10
+    arguments:
+      - test3.py
+      - Insert string -> printed value
+    to_execute: y
+    dependencies:
+      - test3.py
+  - name: test3.py
+    priority: 2
+    arguments:
+      -
+    to_execute: y
+Instance 4:
+  - name: test.py
+    priority: 1
+    arguments:
+      -
+    to_execute: y
+  - name: test2.py
+    priority: 1
+    arguments:
+      - test3.py
+      - Insert string -> printed value
+    to_execute: y
+    dependencies:
+      - test3.py
+  - name: test3.py
+    priority: 10
+    arguments:
+      -
+    to_execute: y
+Instance 5:
+  - name: test.py
+    priority: 1
+    arguments:
+      -
+    to_execute: y
+  - name: test2.py
+    priority: 1
+    arguments:
+      - test3.py
+      - Insert string -> printed value
+    to_execute: y
+    dependencies:
+      - test3.py
+  - name: test3.py
+    priority: 10
+    arguments:
+      -
+    to_execute: y

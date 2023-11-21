@@ -1,0 +1,24 @@
+# Instances of satellite configurator
+# For each satellite define the order of execution of the tasks
+# The arguments given in input for a task must be defined in the bullet points below that task
+# If an arguments takes as input the output of the previous task, leave the bullet point blank
+Instance 0:
+  test.py:
+  test2.py:
+  -
+Instance 1:
+  test3.py:
+  test2.py:
+  -
+Instance 2:
+  test.py:
+  test3.py:
+Instance 3:
+  test.py:
+Instance 4:
+  test3.py:
+Instance 5:
+  test.py:
+  test2.py:
+  -
+  test3.py:

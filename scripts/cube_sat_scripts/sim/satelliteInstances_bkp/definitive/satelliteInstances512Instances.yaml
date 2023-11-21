@@ -1,0 +1,8640 @@
+Instance 0:
+  - name: black_white
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - b_w_lena.bmp
+    to_execute: y
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: image_dark
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - dark_lena.bmp
+    to_execute: y
+Instance 1:
+  - name: image_rgbtogray
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - gray_lena.bmp
+    to_execute: y
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+  - name: negative_image
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - negative_lena.bmp
+    to_execute: y
+Instance 2:
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 3:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 6000
+      - 2048
+  - name: qsort_small
+    priority: 1
+    to_execute: y
+    arguments:
+      - input_small.dat
+Instance 4:
+  - name: susan_edge_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_smoothing
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+Instance 5:
+  - name: low_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+Instance 6:
+  - name: band_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: band_stop
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: fwht
+    priority: 1
+    to_execute: y
+    arguments:
+      - 18
+Instance 7:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 8000
+      - 2048
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+Instance 8:
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+Instance 9:
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 10:
+  - name: susan_edge_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_smoothing
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+Instance 11:
+  - name: low_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+Instance 12:
+  - name: band_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: band_stop
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: fwht
+    priority: 1
+    to_execute: y
+    arguments:
+      - 18
+Instance 13:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 8000
+      - 2048
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+Instance 14:
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+Instance 15:
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 16:
+  - name: black_white
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - b_w_lena.bmp
+    to_execute: y
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: image_dark
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - dark_lena.bmp
+    to_execute: y
+Instance 17:
+  - name: image_rgbtogray
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - gray_lena.bmp
+    to_execute: y
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+  - name: negative_image
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - negative_lena.bmp
+    to_execute: y
+Instance 18:
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 19:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 6000
+      - 2048
+  - name: qsort_small
+    priority: 1
+    to_execute: y
+    arguments:
+      - input_small.dat
+Instance 20:
+  - name: susan_edge_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_smoothing
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+Instance 21:
+  - name: low_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+Instance 22:
+  - name: band_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: band_stop
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: fwht
+    priority: 1
+    to_execute: y
+    arguments:
+      - 18
+Instance 23:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 8000
+      - 2048
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+Instance 24:
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+Instance 25:
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 26:
+  - name: susan_edge_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_smoothing
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+Instance 27:
+  - name: low_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+Instance 28:
+  - name: band_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: band_stop
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: fwht
+    priority: 1
+    to_execute: y
+    arguments:
+      - 18
+Instance 29:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 8000
+      - 2048
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+Instance 30:
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+Instance 31:
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 32:
+  - name: black_white
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - b_w_lena.bmp
+    to_execute: y
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: image_dark
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - dark_lena.bmp
+    to_execute: y
+Instance 33:
+  - name: image_rgbtogray
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - gray_lena.bmp
+    to_execute: y
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+  - name: negative_image
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - negative_lena.bmp
+    to_execute: y
+Instance 34:
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 35:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 6000
+      - 2048
+  - name: qsort_small
+    priority: 1
+    to_execute: y
+    arguments:
+      - input_small.dat
+Instance 36:
+  - name: susan_edge_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_smoothing
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+Instance 37:
+  - name: low_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+Instance 38:
+  - name: band_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: band_stop
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: fwht
+    priority: 1
+    to_execute: y
+    arguments:
+      - 18
+Instance 39:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 8000
+      - 2048
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+Instance 40:
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+Instance 41:
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 42:
+  - name: susan_edge_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_smoothing
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+Instance 43:
+  - name: low_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+Instance 44:
+  - name: band_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: band_stop
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: fwht
+    priority: 1
+    to_execute: y
+    arguments:
+      - 18
+Instance 45:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 8000
+      - 2048
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+Instance 46:
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+Instance 47:
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 48:
+  - name: black_white
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - b_w_lena.bmp
+    to_execute: y
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: image_dark
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - dark_lena.bmp
+    to_execute: y
+Instance 49:
+  - name: image_rgbtogray
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - gray_lena.bmp
+    to_execute: y
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+  - name: negative_image
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - negative_lena.bmp
+    to_execute: y
+Instance 50:
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 51:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 6000
+      - 2048
+  - name: qsort_small
+    priority: 1
+    to_execute: y
+    arguments:
+      - input_small.dat
+Instance 52:
+  - name: susan_edge_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_smoothing
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+Instance 53:
+  - name: low_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+Instance 54:
+  - name: band_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: band_stop
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: fwht
+    priority: 1
+    to_execute: y
+    arguments:
+      - 18
+Instance 55:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 8000
+      - 2048
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+Instance 56:
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+Instance 57:
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 58:
+  - name: susan_edge_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_smoothing
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+Instance 59:
+  - name: low_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+Instance 60:
+  - name: band_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: band_stop
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: fwht
+    priority: 1
+    to_execute: y
+    arguments:
+      - 18
+Instance 61:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 8000
+      - 2048
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+Instance 62:
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+Instance 63:
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 64:
+  - name: black_white
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - b_w_lena.bmp
+    to_execute: y
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: image_dark
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - dark_lena.bmp
+    to_execute: y
+Instance 65:
+  - name: image_rgbtogray
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - gray_lena.bmp
+    to_execute: y
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+  - name: negative_image
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - negative_lena.bmp
+    to_execute: y
+Instance 66:
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 67:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 6000
+      - 2048
+  - name: qsort_small
+    priority: 1
+    to_execute: y
+    arguments:
+      - input_small.dat
+Instance 68:
+  - name: susan_edge_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_smoothing
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+Instance 69:
+  - name: low_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+Instance 70:
+  - name: band_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: band_stop
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: fwht
+    priority: 1
+    to_execute: y
+    arguments:
+      - 18
+Instance 71:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 8000
+      - 2048
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+Instance 72:
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+Instance 73:
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 74:
+  - name: susan_edge_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_smoothing
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+Instance 75:
+  - name: low_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+Instance 76:
+  - name: band_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: band_stop
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: fwht
+    priority: 1
+    to_execute: y
+    arguments:
+      - 18
+Instance 77:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 8000
+      - 2048
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+Instance 78:
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+Instance 79:
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 80:
+  - name: black_white
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - b_w_lena.bmp
+    to_execute: y
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: image_dark
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - dark_lena.bmp
+    to_execute: y
+Instance 81:
+  - name: image_rgbtogray
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - gray_lena.bmp
+    to_execute: y
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+  - name: negative_image
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - negative_lena.bmp
+    to_execute: y
+Instance 82:
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 83:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 6000
+      - 2048
+  - name: qsort_small
+    priority: 1
+    to_execute: y
+    arguments:
+      - input_small.dat
+Instance 84:
+  - name: susan_edge_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_smoothing
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+Instance 85:
+  - name: low_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+Instance 86:
+  - name: band_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: band_stop
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: fwht
+    priority: 1
+    to_execute: y
+    arguments:
+      - 18
+Instance 87:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 8000
+      - 2048
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+Instance 88:
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+Instance 89:
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 90:
+  - name: susan_edge_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_smoothing
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+Instance 91:
+  - name: low_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+Instance 92:
+  - name: band_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: band_stop
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: fwht
+    priority: 1
+    to_execute: y
+    arguments:
+      - 18
+Instance 93:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 8000
+      - 2048
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+Instance 94:
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+Instance 95:
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 96:
+  - name: black_white
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - b_w_lena.bmp
+    to_execute: y
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: image_dark
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - dark_lena.bmp
+    to_execute: y
+Instance 97:
+  - name: image_rgbtogray
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - gray_lena.bmp
+    to_execute: y
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+  - name: negative_image
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - negative_lena.bmp
+    to_execute: y
+Instance 98:
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 99:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 6000
+      - 2048
+  - name: qsort_small
+    priority: 1
+    to_execute: y
+    arguments:
+      - input_small.dat
+Instance 100:
+  - name: susan_edge_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_smoothing
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+Instance 101:
+  - name: low_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+Instance 102:
+  - name: band_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: band_stop
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: fwht
+    priority: 1
+    to_execute: y
+    arguments:
+      - 18
+Instance 103:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 8000
+      - 2048
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+Instance 104:
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+Instance 105:
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 106:
+  - name: susan_edge_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_smoothing
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+Instance 107:
+  - name: low_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+Instance 108:
+  - name: band_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: band_stop
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: fwht
+    priority: 1
+    to_execute: y
+    arguments:
+      - 18
+Instance 109:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 8000
+      - 2048
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+Instance 110:
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+Instance 111:
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 112:
+  - name: black_white
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - b_w_lena.bmp
+    to_execute: y
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: image_dark
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - dark_lena.bmp
+    to_execute: y
+Instance 113:
+  - name: image_rgbtogray
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - gray_lena.bmp
+    to_execute: y
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+  - name: negative_image
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - negative_lena.bmp
+    to_execute: y
+Instance 114:
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 115:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 6000
+      - 2048
+  - name: qsort_small
+    priority: 1
+    to_execute: y
+    arguments:
+      - input_small.dat
+Instance 116:
+  - name: susan_edge_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_smoothing
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+Instance 117:
+  - name: low_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+Instance 118:
+  - name: band_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: band_stop
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: fwht
+    priority: 1
+    to_execute: y
+    arguments:
+      - 18
+Instance 119:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 8000
+      - 2048
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+Instance 120:
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+Instance 121:
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 122:
+  - name: susan_edge_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_smoothing
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+Instance 123:
+  - name: low_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+Instance 124:
+  - name: band_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: band_stop
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: fwht
+    priority: 1
+    to_execute: y
+    arguments:
+      - 18
+Instance 125:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 8000
+      - 2048
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+Instance 126:
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+Instance 127:
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 128:
+  - name: black_white
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - b_w_lena.bmp
+    to_execute: y
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: image_dark
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - dark_lena.bmp
+    to_execute: y
+Instance 129:
+  - name: image_rgbtogray
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - gray_lena.bmp
+    to_execute: y
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+  - name: negative_image
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - negative_lena.bmp
+    to_execute: y
+Instance 130:
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 131:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 6000
+      - 2048
+  - name: qsort_small
+    priority: 1
+    to_execute: y
+    arguments:
+      - input_small.dat
+Instance 132:
+  - name: susan_edge_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_smoothing
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+Instance 133:
+  - name: low_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+Instance 134:
+  - name: band_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: band_stop
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: fwht
+    priority: 1
+    to_execute: y
+    arguments:
+      - 18
+Instance 135:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 8000
+      - 2048
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+Instance 136:
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+Instance 137:
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 138:
+  - name: susan_edge_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_smoothing
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+Instance 139:
+  - name: low_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+Instance 140:
+  - name: band_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: band_stop
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: fwht
+    priority: 1
+    to_execute: y
+    arguments:
+      - 18
+Instance 141:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 8000
+      - 2048
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+Instance 142:
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+Instance 143:
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 144:
+  - name: black_white
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - b_w_lena.bmp
+    to_execute: y
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: image_dark
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - dark_lena.bmp
+    to_execute: y
+Instance 145:
+  - name: image_rgbtogray
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - gray_lena.bmp
+    to_execute: y
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+  - name: negative_image
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - negative_lena.bmp
+    to_execute: y
+Instance 146:
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 147:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 6000
+      - 2048
+  - name: qsort_small
+    priority: 1
+    to_execute: y
+    arguments:
+      - input_small.dat
+Instance 148:
+  - name: susan_edge_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_smoothing
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+Instance 149:
+  - name: low_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+Instance 150:
+  - name: band_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: band_stop
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: fwht
+    priority: 1
+    to_execute: y
+    arguments:
+      - 18
+Instance 151:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 8000
+      - 2048
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+Instance 152:
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+Instance 153:
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 154:
+  - name: susan_edge_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_smoothing
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+Instance 155:
+  - name: low_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+Instance 156:
+  - name: band_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: band_stop
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: fwht
+    priority: 1
+    to_execute: y
+    arguments:
+      - 18
+Instance 157:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 8000
+      - 2048
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+Instance 158:
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+Instance 159:
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 160:
+  - name: black_white
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - b_w_lena.bmp
+    to_execute: y
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: image_dark
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - dark_lena.bmp
+    to_execute: y
+Instance 161:
+  - name: image_rgbtogray
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - gray_lena.bmp
+    to_execute: y
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+  - name: negative_image
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - negative_lena.bmp
+    to_execute: y
+Instance 162:
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 163:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 6000
+      - 2048
+  - name: qsort_small
+    priority: 1
+    to_execute: y
+    arguments:
+      - input_small.dat
+Instance 164:
+  - name: susan_edge_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_smoothing
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+Instance 165:
+  - name: low_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+Instance 166:
+  - name: band_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: band_stop
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: fwht
+    priority: 1
+    to_execute: y
+    arguments:
+      - 18
+Instance 167:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 8000
+      - 2048
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+Instance 168:
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+Instance 169:
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 170:
+  - name: susan_edge_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_smoothing
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+Instance 171:
+  - name: low_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+Instance 172:
+  - name: band_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: band_stop
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: fwht
+    priority: 1
+    to_execute: y
+    arguments:
+      - 18
+Instance 173:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 8000
+      - 2048
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+Instance 174:
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+Instance 175:
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 176:
+  - name: black_white
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - b_w_lena.bmp
+    to_execute: y
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: image_dark
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - dark_lena.bmp
+    to_execute: y
+Instance 177:
+  - name: image_rgbtogray
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - gray_lena.bmp
+    to_execute: y
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+  - name: negative_image
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - negative_lena.bmp
+    to_execute: y
+Instance 178:
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 179:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 6000
+      - 2048
+  - name: qsort_small
+    priority: 1
+    to_execute: y
+    arguments:
+      - input_small.dat
+Instance 180:
+  - name: susan_edge_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_smoothing
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+Instance 181:
+  - name: low_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+Instance 182:
+  - name: band_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: band_stop
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: fwht
+    priority: 1
+    to_execute: y
+    arguments:
+      - 18
+Instance 183:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 8000
+      - 2048
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+Instance 184:
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+Instance 185:
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 186:
+  - name: susan_edge_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_smoothing
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+Instance 187:
+  - name: low_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+Instance 188:
+  - name: band_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: band_stop
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: fwht
+    priority: 1
+    to_execute: y
+    arguments:
+      - 18
+Instance 189:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 8000
+      - 2048
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+Instance 190:
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+Instance 191:
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 192:
+  - name: black_white
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - b_w_lena.bmp
+    to_execute: y
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: image_dark
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - dark_lena.bmp
+    to_execute: y
+Instance 193:
+  - name: image_rgbtogray
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - gray_lena.bmp
+    to_execute: y
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+  - name: negative_image
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - negative_lena.bmp
+    to_execute: y
+Instance 194:
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 195:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 6000
+      - 2048
+  - name: qsort_small
+    priority: 1
+    to_execute: y
+    arguments:
+      - input_small.dat
+Instance 196:
+  - name: susan_edge_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_smoothing
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+Instance 197:
+  - name: low_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+Instance 198:
+  - name: band_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: band_stop
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: fwht
+    priority: 1
+    to_execute: y
+    arguments:
+      - 18
+Instance 199:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 8000
+      - 2048
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+Instance 200:
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+Instance 201:
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 202:
+  - name: susan_edge_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_smoothing
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+Instance 203:
+  - name: low_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+Instance 204:
+  - name: band_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: band_stop
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: fwht
+    priority: 1
+    to_execute: y
+    arguments:
+      - 18
+Instance 205:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 8000
+      - 2048
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+Instance 206:
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+Instance 207:
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 208:
+  - name: black_white
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - b_w_lena.bmp
+    to_execute: y
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: image_dark
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - dark_lena.bmp
+    to_execute: y
+Instance 209:
+  - name: image_rgbtogray
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - gray_lena.bmp
+    to_execute: y
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+  - name: negative_image
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - negative_lena.bmp
+    to_execute: y
+Instance 210:
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 211:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 6000
+      - 2048
+  - name: qsort_small
+    priority: 1
+    to_execute: y
+    arguments:
+      - input_small.dat
+Instance 212:
+  - name: susan_edge_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_smoothing
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+Instance 213:
+  - name: low_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+Instance 214:
+  - name: band_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: band_stop
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: fwht
+    priority: 1
+    to_execute: y
+    arguments:
+      - 18
+Instance 215:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 8000
+      - 2048
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+Instance 216:
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+Instance 217:
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 218:
+  - name: susan_edge_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_smoothing
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+Instance 219:
+  - name: low_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+Instance 220:
+  - name: band_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: band_stop
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: fwht
+    priority: 1
+    to_execute: y
+    arguments:
+      - 18
+Instance 221:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 8000
+      - 2048
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+Instance 222:
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+Instance 223:
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 224:
+  - name: black_white
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - b_w_lena.bmp
+    to_execute: y
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: image_dark
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - dark_lena.bmp
+    to_execute: y
+Instance 225:
+  - name: image_rgbtogray
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - gray_lena.bmp
+    to_execute: y
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+  - name: negative_image
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - negative_lena.bmp
+    to_execute: y
+Instance 226:
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 227:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 6000
+      - 2048
+  - name: qsort_small
+    priority: 1
+    to_execute: y
+    arguments:
+      - input_small.dat
+Instance 228:
+  - name: susan_edge_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_smoothing
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+Instance 229:
+  - name: low_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+Instance 230:
+  - name: band_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: band_stop
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: fwht
+    priority: 1
+    to_execute: y
+    arguments:
+      - 18
+Instance 231:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 8000
+      - 2048
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+Instance 232:
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+Instance 233:
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 234:
+  - name: susan_edge_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_smoothing
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+Instance 235:
+  - name: low_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+Instance 236:
+  - name: band_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: band_stop
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: fwht
+    priority: 1
+    to_execute: y
+    arguments:
+      - 18
+Instance 237:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 8000
+      - 2048
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+Instance 238:
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+Instance 239:
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 240:
+  - name: black_white
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - b_w_lena.bmp
+    to_execute: y
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: image_dark
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - dark_lena.bmp
+    to_execute: y
+Instance 241:
+  - name: image_rgbtogray
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - gray_lena.bmp
+    to_execute: y
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+  - name: negative_image
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - negative_lena.bmp
+    to_execute: y
+Instance 242:
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 243:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 6000
+      - 2048
+  - name: qsort_small
+    priority: 1
+    to_execute: y
+    arguments:
+      - input_small.dat
+Instance 244:
+  - name: susan_edge_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_smoothing
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+Instance 245:
+  - name: low_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+Instance 246:
+  - name: band_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: band_stop
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: fwht
+    priority: 1
+    to_execute: y
+    arguments:
+      - 18
+Instance 247:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 8000
+      - 2048
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+Instance 248:
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+Instance 249:
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 250:
+  - name: susan_edge_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_smoothing
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+Instance 251:
+  - name: low_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+Instance 252:
+  - name: band_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: band_stop
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: fwht
+    priority: 1
+    to_execute: y
+    arguments:
+      - 18
+Instance 253:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 8000
+      - 2048
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+Instance 254:
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+Instance 255:
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 256:
+  - name: black_white
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - b_w_lena.bmp
+    to_execute: y
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: image_dark
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - dark_lena.bmp
+    to_execute: y
+Instance 257:
+  - name: image_rgbtogray
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - gray_lena.bmp
+    to_execute: y
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+  - name: negative_image
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - negative_lena.bmp
+    to_execute: y
+Instance 258:
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 259:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 6000
+      - 2048
+  - name: qsort_small
+    priority: 1
+    to_execute: y
+    arguments:
+      - input_small.dat
+Instance 260:
+  - name: susan_edge_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_smoothing
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+Instance 261:
+  - name: low_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+Instance 262:
+  - name: band_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: band_stop
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: fwht
+    priority: 1
+    to_execute: y
+    arguments:
+      - 18
+Instance 263:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 8000
+      - 2048
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+Instance 264:
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+Instance 265:
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 266:
+  - name: susan_edge_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_smoothing
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+Instance 267:
+  - name: low_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+Instance 268:
+  - name: band_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: band_stop
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: fwht
+    priority: 1
+    to_execute: y
+    arguments:
+      - 18
+Instance 269:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 8000
+      - 2048
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+Instance 270:
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+Instance 271:
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 272:
+  - name: black_white
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - b_w_lena.bmp
+    to_execute: y
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: image_dark
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - dark_lena.bmp
+    to_execute: y
+Instance 273:
+  - name: image_rgbtogray
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - gray_lena.bmp
+    to_execute: y
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+  - name: negative_image
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - negative_lena.bmp
+    to_execute: y
+Instance 274:
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 275:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 6000
+      - 2048
+  - name: qsort_small
+    priority: 1
+    to_execute: y
+    arguments:
+      - input_small.dat
+Instance 276:
+  - name: susan_edge_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_smoothing
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+Instance 277:
+  - name: low_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+Instance 278:
+  - name: band_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: band_stop
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: fwht
+    priority: 1
+    to_execute: y
+    arguments:
+      - 18
+Instance 279:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 8000
+      - 2048
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+Instance 280:
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+Instance 281:
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 282:
+  - name: susan_edge_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_smoothing
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+Instance 283:
+  - name: low_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+Instance 284:
+  - name: band_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: band_stop
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: fwht
+    priority: 1
+    to_execute: y
+    arguments:
+      - 18
+Instance 285:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 8000
+      - 2048
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+Instance 286:
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+Instance 287:
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 288:
+  - name: black_white
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - b_w_lena.bmp
+    to_execute: y
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: image_dark
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - dark_lena.bmp
+    to_execute: y
+Instance 289:
+  - name: image_rgbtogray
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - gray_lena.bmp
+    to_execute: y
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+  - name: negative_image
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - negative_lena.bmp
+    to_execute: y
+Instance 290:
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 291:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 6000
+      - 2048
+  - name: qsort_small
+    priority: 1
+    to_execute: y
+    arguments:
+      - input_small.dat
+Instance 292:
+  - name: susan_edge_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_smoothing
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+Instance 293:
+  - name: low_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+Instance 294:
+  - name: band_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: band_stop
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: fwht
+    priority: 1
+    to_execute: y
+    arguments:
+      - 18
+Instance 295:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 8000
+      - 2048
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+Instance 296:
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+Instance 297:
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 298:
+  - name: susan_edge_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_smoothing
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+Instance 299:
+  - name: low_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+Instance 300:
+  - name: band_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: band_stop
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: fwht
+    priority: 1
+    to_execute: y
+    arguments:
+      - 18
+Instance 301:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 8000
+      - 2048
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+Instance 302:
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+Instance 303:
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 304:
+  - name: black_white
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - b_w_lena.bmp
+    to_execute: y
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: image_dark
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - dark_lena.bmp
+    to_execute: y
+Instance 305:
+  - name: image_rgbtogray
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - gray_lena.bmp
+    to_execute: y
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+  - name: negative_image
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - negative_lena.bmp
+    to_execute: y
+Instance 306:
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 307:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 6000
+      - 2048
+  - name: qsort_small
+    priority: 1
+    to_execute: y
+    arguments:
+      - input_small.dat
+Instance 308:
+  - name: susan_edge_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_smoothing
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+Instance 309:
+  - name: low_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+Instance 310:
+  - name: band_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: band_stop
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: fwht
+    priority: 1
+    to_execute: y
+    arguments:
+      - 18
+Instance 311:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 8000
+      - 2048
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+Instance 312:
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+Instance 313:
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 314:
+  - name: susan_edge_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_smoothing
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+Instance 315:
+  - name: low_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+Instance 316:
+  - name: band_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: band_stop
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: fwht
+    priority: 1
+    to_execute: y
+    arguments:
+      - 18
+Instance 317:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 8000
+      - 2048
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+Instance 318:
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+Instance 319:
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 320:
+  - name: black_white
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - b_w_lena.bmp
+    to_execute: y
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: image_dark
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - dark_lena.bmp
+    to_execute: y
+Instance 321:
+  - name: image_rgbtogray
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - gray_lena.bmp
+    to_execute: y
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+  - name: negative_image
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - negative_lena.bmp
+    to_execute: y
+Instance 322:
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 323:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 6000
+      - 2048
+  - name: qsort_small
+    priority: 1
+    to_execute: y
+    arguments:
+      - input_small.dat
+Instance 324:
+  - name: susan_edge_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_smoothing
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+Instance 325:
+  - name: low_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+Instance 326:
+  - name: band_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: band_stop
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: fwht
+    priority: 1
+    to_execute: y
+    arguments:
+      - 18
+Instance 327:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 8000
+      - 2048
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+Instance 328:
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+Instance 329:
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 330:
+  - name: susan_edge_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_smoothing
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+Instance 331:
+  - name: low_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+Instance 332:
+  - name: band_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: band_stop
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: fwht
+    priority: 1
+    to_execute: y
+    arguments:
+      - 18
+Instance 333:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 8000
+      - 2048
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+Instance 334:
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+Instance 335:
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 336:
+  - name: black_white
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - b_w_lena.bmp
+    to_execute: y
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: image_dark
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - dark_lena.bmp
+    to_execute: y
+Instance 337:
+  - name: image_rgbtogray
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - gray_lena.bmp
+    to_execute: y
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+  - name: negative_image
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - negative_lena.bmp
+    to_execute: y
+Instance 338:
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 339:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 6000
+      - 2048
+  - name: qsort_small
+    priority: 1
+    to_execute: y
+    arguments:
+      - input_small.dat
+Instance 340:
+  - name: susan_edge_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_smoothing
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+Instance 341:
+  - name: low_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+Instance 342:
+  - name: band_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: band_stop
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: fwht
+    priority: 1
+    to_execute: y
+    arguments:
+      - 18
+Instance 343:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 8000
+      - 2048
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+Instance 344:
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+Instance 345:
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 346:
+  - name: susan_edge_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_smoothing
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+Instance 347:
+  - name: low_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+Instance 348:
+  - name: band_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: band_stop
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: fwht
+    priority: 1
+    to_execute: y
+    arguments:
+      - 18
+Instance 349:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 8000
+      - 2048
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+Instance 350:
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+Instance 351:
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 352:
+  - name: black_white
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - b_w_lena.bmp
+    to_execute: y
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: image_dark
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - dark_lena.bmp
+    to_execute: y
+Instance 353:
+  - name: image_rgbtogray
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - gray_lena.bmp
+    to_execute: y
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+  - name: negative_image
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - negative_lena.bmp
+    to_execute: y
+Instance 354:
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 355:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 6000
+      - 2048
+  - name: qsort_small
+    priority: 1
+    to_execute: y
+    arguments:
+      - input_small.dat
+Instance 356:
+  - name: susan_edge_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_smoothing
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+Instance 357:
+  - name: low_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+Instance 358:
+  - name: band_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: band_stop
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: fwht
+    priority: 1
+    to_execute: y
+    arguments:
+      - 18
+Instance 359:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 8000
+      - 2048
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+Instance 360:
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+Instance 361:
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 362:
+  - name: susan_edge_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_smoothing
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+Instance 363:
+  - name: low_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+Instance 364:
+  - name: band_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: band_stop
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: fwht
+    priority: 1
+    to_execute: y
+    arguments:
+      - 18
+Instance 365:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 8000
+      - 2048
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+Instance 366:
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+Instance 367:
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 368:
+  - name: black_white
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - b_w_lena.bmp
+    to_execute: y
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: image_dark
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - dark_lena.bmp
+    to_execute: y
+Instance 369:
+  - name: image_rgbtogray
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - gray_lena.bmp
+    to_execute: y
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+  - name: negative_image
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - negative_lena.bmp
+    to_execute: y
+Instance 370:
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 371:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 6000
+      - 2048
+  - name: qsort_small
+    priority: 1
+    to_execute: y
+    arguments:
+      - input_small.dat
+Instance 372:
+  - name: susan_edge_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_smoothing
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+Instance 373:
+  - name: low_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+Instance 374:
+  - name: band_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: band_stop
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: fwht
+    priority: 1
+    to_execute: y
+    arguments:
+      - 18
+Instance 375:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 8000
+      - 2048
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+Instance 376:
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+Instance 377:
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 378:
+  - name: susan_edge_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_smoothing
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+Instance 379:
+  - name: low_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+Instance 380:
+  - name: band_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: band_stop
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: fwht
+    priority: 1
+    to_execute: y
+    arguments:
+      - 18
+Instance 381:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 8000
+      - 2048
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+Instance 382:
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+Instance 383:
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 384:
+  - name: black_white
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - b_w_lena.bmp
+    to_execute: y
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: image_dark
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - dark_lena.bmp
+    to_execute: y
+Instance 385:
+  - name: image_rgbtogray
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - gray_lena.bmp
+    to_execute: y
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+  - name: negative_image
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - negative_lena.bmp
+    to_execute: y
+Instance 386:
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 387:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 6000
+      - 2048
+  - name: qsort_small
+    priority: 1
+    to_execute: y
+    arguments:
+      - input_small.dat
+Instance 388:
+  - name: susan_edge_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_smoothing
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+Instance 389:
+  - name: low_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+Instance 390:
+  - name: band_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: band_stop
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: fwht
+    priority: 1
+    to_execute: y
+    arguments:
+      - 18
+Instance 391:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 8000
+      - 2048
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+Instance 392:
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+Instance 393:
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 394:
+  - name: susan_edge_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_smoothing
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+Instance 395:
+  - name: low_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+Instance 396:
+  - name: band_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: band_stop
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: fwht
+    priority: 1
+    to_execute: y
+    arguments:
+      - 18
+Instance 397:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 8000
+      - 2048
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+Instance 398:
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+Instance 399:
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 400:
+  - name: black_white
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - b_w_lena.bmp
+    to_execute: y
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: image_dark
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - dark_lena.bmp
+    to_execute: y
+Instance 401:
+  - name: image_rgbtogray
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - gray_lena.bmp
+    to_execute: y
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+  - name: negative_image
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - negative_lena.bmp
+    to_execute: y
+Instance 402:
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 403:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 6000
+      - 2048
+  - name: qsort_small
+    priority: 1
+    to_execute: y
+    arguments:
+      - input_small.dat
+Instance 404:
+  - name: susan_edge_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_smoothing
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+Instance 405:
+  - name: low_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+Instance 406:
+  - name: band_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: band_stop
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: fwht
+    priority: 1
+    to_execute: y
+    arguments:
+      - 18
+Instance 407:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 8000
+      - 2048
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+Instance 408:
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+Instance 409:
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 410:
+  - name: susan_edge_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_smoothing
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+Instance 411:
+  - name: low_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+Instance 412:
+  - name: band_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: band_stop
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: fwht
+    priority: 1
+    to_execute: y
+    arguments:
+      - 18
+Instance 413:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 8000
+      - 2048
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+Instance 414:
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+Instance 415:
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 416:
+  - name: black_white
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - b_w_lena.bmp
+    to_execute: y
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: image_dark
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - dark_lena.bmp
+    to_execute: y
+Instance 417:
+  - name: image_rgbtogray
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - gray_lena.bmp
+    to_execute: y
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+  - name: negative_image
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - negative_lena.bmp
+    to_execute: y
+Instance 418:
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 419:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 6000
+      - 2048
+  - name: qsort_small
+    priority: 1
+    to_execute: y
+    arguments:
+      - input_small.dat
+Instance 420:
+  - name: susan_edge_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_smoothing
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+Instance 421:
+  - name: low_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+Instance 422:
+  - name: band_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: band_stop
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: fwht
+    priority: 1
+    to_execute: y
+    arguments:
+      - 18
+Instance 423:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 8000
+      - 2048
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+Instance 424:
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+Instance 425:
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 426:
+  - name: susan_edge_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_smoothing
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+Instance 427:
+  - name: low_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+Instance 428:
+  - name: band_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: band_stop
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: fwht
+    priority: 1
+    to_execute: y
+    arguments:
+      - 18
+Instance 429:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 8000
+      - 2048
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+Instance 430:
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+Instance 431:
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 432:
+  - name: black_white
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - b_w_lena.bmp
+    to_execute: y
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: image_dark
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - dark_lena.bmp
+    to_execute: y
+Instance 433:
+  - name: image_rgbtogray
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - gray_lena.bmp
+    to_execute: y
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+  - name: negative_image
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - negative_lena.bmp
+    to_execute: y
+Instance 434:
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 435:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 6000
+      - 2048
+  - name: qsort_small
+    priority: 1
+    to_execute: y
+    arguments:
+      - input_small.dat
+Instance 436:
+  - name: susan_edge_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_smoothing
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+Instance 437:
+  - name: low_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+Instance 438:
+  - name: band_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: band_stop
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: fwht
+    priority: 1
+    to_execute: y
+    arguments:
+      - 18
+Instance 439:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 8000
+      - 2048
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+Instance 440:
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+Instance 441:
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 442:
+  - name: susan_edge_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_smoothing
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+Instance 443:
+  - name: low_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+Instance 444:
+  - name: band_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: band_stop
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: fwht
+    priority: 1
+    to_execute: y
+    arguments:
+      - 18
+Instance 445:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 8000
+      - 2048
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+Instance 446:
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+Instance 447:
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 448:
+  - name: black_white
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - b_w_lena.bmp
+    to_execute: y
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: image_dark
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - dark_lena.bmp
+    to_execute: y
+Instance 449:
+  - name: image_rgbtogray
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - gray_lena.bmp
+    to_execute: y
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+  - name: negative_image
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - negative_lena.bmp
+    to_execute: y
+Instance 450:
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 451:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 6000
+      - 2048
+  - name: qsort_small
+    priority: 1
+    to_execute: y
+    arguments:
+      - input_small.dat
+Instance 452:
+  - name: susan_edge_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_smoothing
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+Instance 453:
+  - name: low_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+Instance 454:
+  - name: band_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: band_stop
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: fwht
+    priority: 1
+    to_execute: y
+    arguments:
+      - 18
+Instance 455:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 8000
+      - 2048
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+Instance 456:
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+Instance 457:
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 458:
+  - name: susan_edge_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_smoothing
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+Instance 459:
+  - name: low_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+Instance 460:
+  - name: band_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: band_stop
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: fwht
+    priority: 1
+    to_execute: y
+    arguments:
+      - 18
+Instance 461:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 8000
+      - 2048
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+Instance 462:
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+Instance 463:
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 464:
+  - name: black_white
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - b_w_lena.bmp
+    to_execute: y
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: image_dark
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - dark_lena.bmp
+    to_execute: y
+Instance 465:
+  - name: image_rgbtogray
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - gray_lena.bmp
+    to_execute: y
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+  - name: negative_image
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - negative_lena.bmp
+    to_execute: y
+Instance 466:
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 467:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 6000
+      - 2048
+  - name: qsort_small
+    priority: 1
+    to_execute: y
+    arguments:
+      - input_small.dat
+Instance 468:
+  - name: susan_edge_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_smoothing
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+Instance 469:
+  - name: low_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+Instance 470:
+  - name: band_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: band_stop
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: fwht
+    priority: 1
+    to_execute: y
+    arguments:
+      - 18
+Instance 471:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 8000
+      - 2048
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+Instance 472:
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+Instance 473:
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 474:
+  - name: susan_edge_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_smoothing
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+Instance 475:
+  - name: low_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+Instance 476:
+  - name: band_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: band_stop
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: fwht
+    priority: 1
+    to_execute: y
+    arguments:
+      - 18
+Instance 477:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 8000
+      - 2048
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+Instance 478:
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+Instance 479:
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 480:
+  - name: black_white
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - b_w_lena.bmp
+    to_execute: y
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: image_dark
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - dark_lena.bmp
+    to_execute: y
+Instance 481:
+  - name: image_rgbtogray
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - gray_lena.bmp
+    to_execute: y
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+  - name: negative_image
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - negative_lena.bmp
+    to_execute: y
+Instance 482:
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 483:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 6000
+      - 2048
+  - name: qsort_small
+    priority: 1
+    to_execute: y
+    arguments:
+      - input_small.dat
+Instance 484:
+  - name: susan_edge_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_smoothing
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+Instance 485:
+  - name: low_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+Instance 486:
+  - name: band_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: band_stop
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: fwht
+    priority: 1
+    to_execute: y
+    arguments:
+      - 18
+Instance 487:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 8000
+      - 2048
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+Instance 488:
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+Instance 489:
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 490:
+  - name: susan_edge_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_smoothing
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+Instance 491:
+  - name: low_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+Instance 492:
+  - name: band_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: band_stop
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: fwht
+    priority: 1
+    to_execute: y
+    arguments:
+      - 18
+Instance 493:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 8000
+      - 2048
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+Instance 494:
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+Instance 495:
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 496:
+  - name: black_white
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - b_w_lena.bmp
+    to_execute: y
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: image_dark
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - dark_lena.bmp
+    to_execute: y
+Instance 497:
+  - name: image_rgbtogray
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - gray_lena.bmp
+    to_execute: y
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+  - name: negative_image
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - negative_lena.bmp
+    to_execute: y
+Instance 498:
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 499:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 6000
+      - 2048
+  - name: qsort_small
+    priority: 1
+    to_execute: y
+    arguments:
+      - input_small.dat
+Instance 500:
+  - name: susan_edge_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_smoothing
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+Instance 501:
+  - name: low_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+Instance 502:
+  - name: band_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: band_stop
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: fwht
+    priority: 1
+    to_execute: y
+    arguments:
+      - 18
+Instance 503:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 8000
+      - 2048
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+Instance 504:
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+Instance 505:
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 506:
+  - name: susan_edge_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: susan_smoothing
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+Instance 507:
+  - name: low_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+Instance 508:
+  - name: band_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: band_stop
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: fwht
+    priority: 1
+    to_execute: y
+    arguments:
+      - 18
+Instance 509:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 8000
+      - 2048
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+Instance 510:
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 1000
+Instance 511:
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 1000
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3

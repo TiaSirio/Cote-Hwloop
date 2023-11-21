@@ -1,0 +1,25 @@
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+#Makefile
+
+# Log files
+*.csv
+
+# Python virtual environment
+p3-env/
+
+# JetBrains IDE
+.idea/
+/plots/
+/artifacts/hwloopDAG/build/Makefile
+/artifacts/csfp-base/build/Makefile
+/scripts/oldFiles/scripts/oldSimulations/hwloop/artifacts/hwloop/build/Makefile
+/scripts/oldFiles/scripts/oldSimulations/hwloop/artifacts/hwloop/source/cmake-build-debug/Makefile
+/scripts/oldFiles/scripts/oldSimulations/hwloopM/artifacts/hwloopM/build/Makefile
+/artifacts/hwloopMMul/build/Makefile
+
+# Evaluation data
+!/scripts/evaluation/results/accuracy/consumption/*.csv
+!/scripts/evaluation/results/accuracy/time/*.csv

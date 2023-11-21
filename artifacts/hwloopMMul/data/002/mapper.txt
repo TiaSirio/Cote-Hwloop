@@ -1,0 +1,2 @@
+0,black_white;"lena512.bmp";"b_w_lena.bmp",image_bright;"lena512.bmp";"bright_lena.bmp",image_dark;"lena512.bmp";"dark_lena.bmp"
+1,image_rgbtogray;"lena512.bmp";"gray_lena.bmp",image_rotate;"lena512.bmp";"rotate_lena.bmp";"2",negative_image;"lena512.bmp";"negative_lena.bmp"

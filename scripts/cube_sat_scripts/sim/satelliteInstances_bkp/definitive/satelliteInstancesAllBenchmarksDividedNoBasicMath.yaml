@@ -1,0 +1,140 @@
+# Instances of satellite configurator
+# For each satellite define a DAG that represents the order of execution of the tasks
+# For each task we have the following:
+# - The same values as for tasksDAG.yaml
+# - Dependencies -> Generated if we have as argument the name of another task.
+# If a task have one or more dependencies, it needs to wait for the completion of the dependencies
+Instance 0:
+  - name: black_white
+    priority: 1
+    run_bash_script: 1
+    arguments:
+      - lena512.bmp
+      - b_w_lena.bmp
+    to_execute: y
+Instance 1:
+  - name: image_bright
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - bright_lena.bmp
+    to_execute: y
+Instance 2:
+  - name: image_dark
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - dark_lena.bmp
+    to_execute: y
+Instance 3:
+  - name: image_rgbtogray
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - gray_lena.bmp
+    to_execute: y
+Instance 4:
+  - name: image_rotate
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - rotate_lena.bmp
+      - 2
+    to_execute: y
+Instance 5:
+  - name: negative_image
+    priority: 1
+    run_bash_script: 0
+    arguments:
+      - lena512.bmp
+      - negative_lena.bmp
+    to_execute: y
+Instance 6:
+  - name: mandelbrot_set
+    priority: 1
+    to_execute: y
+    arguments:
+      - output.ppm
+      - 100
+Instance 7:
+  - name: image_median_filter
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - lena.ppm
+      - lena_median.ppm
+      - 3
+Instance 8:
+  - name: fft
+    priority: 1
+    to_execute: y
+    arguments:
+      - 8
+      - 2048
+Instance 9:
+  - name: qsort_small
+    priority: 1
+    to_execute: y
+    arguments:
+      - input_small.dat
+Instance 10:
+  - name: susan_edge_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+      - -t 20
+Instance 11:
+  - name: susan_corner_detector
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+Instance 12:
+  - name: susan_smoothing
+    priority: 1
+    run_bash_script: 0
+    to_execute: y
+    arguments:
+      - input_large.pgm
+      - output_large.pgm
+      - -3
+Instance 13:
+  - name: low_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 100
+Instance 14:
+  - name: high_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 100
+Instance 15:
+  - name: band_pass
+    priority: 1
+    to_execute: y
+    arguments:
+      - 100
+Instance 16:
+  - name: band_stop
+    priority: 1
+    to_execute: y
+    arguments:
+      - 100
+Instance 17:
+  - name: fwht
+    priority: 1
+    to_execute: y
+    arguments:
+      - 5

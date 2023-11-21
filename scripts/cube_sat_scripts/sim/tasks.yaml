@@ -1,0 +1,147 @@
+# Task configurator
+# For each task write:
+# - Its name
+# - Its priority
+# - The arguments that needs in input
+# - run_bash_script -> Defines if the task should run with sequential images or with all images
+#   -> run_bash_script: 0 -> execute the usual task
+#   -> run_bash_script: 1 -> execute the task for all images (it will ignore the first two inputs)
+#   -> run_bash_script: 2 -> execute the task for sequential images (it will ignore the first two inputs) - Not sequential in multithreading
+# The arguments given in input for a task must be defined in the bullet points below that task
+# If an arguments takes as input the output of another task, insert as argument the name of that task
+# If a task have a dependency just add a dependencies argument, like the ones generated
+
+- name: test.py
+  priority: 1
+  arguments:
+    -
+- name: test2.py
+  priority: 1
+  arguments:
+    - test3.py
+    - Insert string -> printed value
+- name: test3.py
+  priority: 1
+  arguments:
+    -
+- name: mandelbrot_set
+  priority: 1
+  arguments:
+    - Output file name .ppm (example output.ppm)
+    - Number of iterations (example 100)
+- name: black_white
+  priority: 1
+  run_bash_script: 0
+  arguments:
+    - Name of .bmp file input (example lena.bmp)
+    - Output file name .bmp (example b_w_lena.bmp)
+- name: image_bright
+  priority: 1
+  run_bash_script: 0
+  arguments:
+    - Name of .bmp file input (example lena.bmp)
+    - Output file name .bmp (example lena_bright.bmp)
+- name: image_dark
+  priority: 1
+  run_bash_script: 0
+  arguments:
+    - Name of .bmp file input (example lena.bmp)
+    - Output file name .bmp (example lena_dark.bmp)
+- name: image_rgbtogray
+  priority: 1
+  run_bash_script: 0
+  arguments:
+    - Name of .bmp file input (example lena_color.bmp)
+    - Output file name .bmp (example lena_gray.bmp)
+- name: image_rotate
+  priority: 1
+  run_bash_script: 0
+  arguments:
+    - Name of .bmp file input (example lena.bmp)
+    - Output file name .bmp (example lena_rotated.bmp)
+    - Rotation (1 -> Rotate right, 2 -> Rotate left, 3 -> Rotate 180 degree)
+- name: negative_image
+  priority: 1
+  run_bash_script: 0
+  arguments:
+    - Name of .bmp file input (example lena.bmp)
+    - Output file name .bmp (example lena_negative.bmp)
+- name: image_median_filter
+  priority: 1
+  run_bash_script: 0
+  arguments:
+    - Name of .ppm file input (example lena.ppm)
+    - Output file name .ppm (example lena_median.ppm)
+    - Filter size (example 3)
+- name: basicmath_small
+  priority: 1
+  arguments:
+    -
+- name: basicmath_large
+  priority: 1
+  arguments:
+    -
+- name: fft
+  priority: 1
+  arguments:
+    - Number of random sinusoids (example 8)
+    - Number of samples (example 32768)
+    - Insert -i to do inverse fft (example -i) (OPTIONAL)
+- name: qsort_small
+  priority: 1
+  arguments:
+    - Input file .dat (input_small.dat)
+- name: qsort_large
+  priority: 1
+  arguments:
+    - Input file .dat (input_large.dat)
+- name: susan_edge_detector
+  priority: 1
+  run_bash_script: 0
+  arguments:
+    - Name of .pgm file input (example input_large.pgm)
+    - Output file name .pgm (example output_large.pgm)
+    - Insert -t <thresh> (Brightness threshold), (example -t 20) (OPTIONAL)
+    - Insert -3 (Use flat 3x3 mask) (example -3) (OPTIONAL)
+    - Insert -p (Output initial enhancement image only) (OPTIONAL)
+    - Insert -n (No post-processing on the binary edge map (runs much faster)) (OPTIONAL)
+    - Insert -b (Mark corners/edges with single black points instead of black with white border) (OPTIONAL)
+- name: susan_corner_detector
+  priority: 1
+  run_bash_script: 0
+  arguments:
+    - Name of .pgm file input (example input_large.pgm)
+    - Output file name .pgm (example output_large.pgm)
+    - Insert -t <thresh> (Brightness threshold), (example -t 20) (OPTIONAL)
+    - Insert -p (Output initial enhancement image only) (OPTIONAL)
+    - Insert -b (Mark corners/edges with single black points instead of black with white border) (OPTIONAL)
+    - Insert -q (Use faster (and usually stabler) corner mode; edge-like corner suppression not carried out) (OPTIONAL)
+- name: susan_smoothing
+  priority: 1
+  run_bash_script: 0
+  arguments:
+    - Name of .pgm file input (example input_large.pgm)
+    - Output file name .pgm (example output_large.pgm)
+    - Insert -t <thresh> (Brightness threshold), (example -t 20) (OPTIONAL)
+    - Insert -d <thresh> (Distance threshold) (example -d 4) (use -3 option instead for flat 3x3 mask) (OPTIONAL)
+    - Insert -3 (Use flat 3x3 mask) (example -3) (OPTIONAL)
+- name: low_pass
+  priority: 1
+  arguments:
+    - Number of iteration in the filter (example 1000)
+- name: high_pass
+  priority: 1
+  arguments:
+    - Number of iteration in the filter (example 1000)
+- name: band_pass
+  priority: 1
+  arguments:
+    - Number of iteration in the filter (example 1000)
+- name: band_stop
+  priority: 1
+  arguments:
+    - Number of iteration in the filter (example 1000)
+- name: fwht
+  priority: 1
+  arguments:
+    - Number of iteration in the filter (example -> if you input 20 - It will execute 2^20 iterations)

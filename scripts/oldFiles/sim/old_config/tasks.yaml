@@ -1,0 +1,17 @@
+# Task configurator
+# For each task write the arguments that needs in input
+# The arguments given in input for a task must be defined in the bullet points below that task
+# If a task doesn't need an input don't insert a bullet points
+# If an arguments takes as input the output of the previous task, leave the bullet point blank
+1.c:
+2.c:
+3.c:
+4.c:
+5.c:
+6.c:
+7.c:
+8.c:
+test.py:
+test2.py:
+  -
+test3.py:

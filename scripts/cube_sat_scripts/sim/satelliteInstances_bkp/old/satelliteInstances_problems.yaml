@@ -1,0 +1,17 @@
+# Instances of satellite configurator
+# For each satellite define a DAG that represents the order of execution of the tasks
+# For each task we have the following:
+# - The same values as for tasksDAG.yaml
+# - Dependencies -> Generated if we have as argument the name of another task.
+#                   If a task have one or more dependencies, it needs to wait for the completion of the dependencies
+Instance 0:
+  - name: qsort_large
+    priority: 1
+    to_execute: y
+    arguments:
+      - input_large.dat
+  - name: basicmath_large
+    priority: 1
+    to_execute: y
+    arguments:
+      -
