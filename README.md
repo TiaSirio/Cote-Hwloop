@@ -1,6 +1,14 @@
-HIL Simulation using as basis the "Orbital Edge Computing ASPLOS 2020 Artifact Software"
+# Hardware-In-The-Loop Simulation of Nano-satellite Constellations 🛰️
 
-This software artifact simulates orbital nanosatellites constellations, using as data for the simulation, data coming from a real satellite.
+## Overview 🌐
+
+Nano-satellites are a space milestone, offering advanced tech in a compact and cost-effective form. Deployed in constellations, these nano-satellites undergo crucial testing phases to reduce mission's cost. Mainstream space simulators fall short in accurately testing nano-satellites due to a lack of real energy consumption data. To address this, I develop a Hardware-In-the-Loop (HIL) simulation, connecting a physical nano-satellite in real-time. The system is scalable, configurable by users, simulating radiation-induced errors and managing up to nearly 700 physical nano-satellites concurrently, reducing the execution time by 88%.<\br>
+I develop this system during my master thesis.
+
+## System 🖥️
+
+This software artifact simulates orbital nanosatellites constellations, using as data for the simulation, data coming from a real satellite.<\br>
+I used a server to run the simulation and the CubeSatSim as nano-satellite to retrieve the data I need.
 
 **Current version**: 1.0.0
 
@@ -31,7 +39,7 @@ sudo apt-get install libssl-dev
 sudo apt-get install doxygen graphviz
 ```
 
-## Directory Contents
+## Directory Contents 📁
 
 * [artifacts](artifacts/README.md): Artifact program (called HWLoopDAG)
 * [plots](plots/README.md): Destination directory for artifact plots
@@ -39,7 +47,7 @@ sudo apt-get install doxygen graphviz
 * [software](software/README.md): Classes, utilities, etc.
 * [README.md](README.md): This document
 
-## How to Use
+## How to Use 🚀
 
 Clone the repository into the specified location.
 
@@ -129,7 +137,19 @@ Generate the plots.
 ./generate_plots.sh
 ```
 
-## License
+## Authors 🧑🏻‍💻
+
+- Mattia Siriani
+
+## Paper 📜
+
+- [Hardware-In-The-Loop Simulation Of Nano-satellite Constellations](https://www.politesi.polimi.it/handle/10589/214887)
+
+## References 📚
+
+- ["Orbital Edge Computing ASPLOS 2020 Artifact Software"](https://github.com/CMUAbstract/oec-asplos20-artifact)
+
+## License 📝
 
 Copyright 2019 Bradley Denby
 
