@@ -139,9 +139,9 @@ Generate the plots.
 
 ## Authors 🧑🏻‍💻
 
-- Mattia Siriani
+- [TiaSirio](https://www.github.com/TiaSirio)
 
-## Paper 📜
+## Thesis + Paper 📜
 
 - [Hardware-In-The-Loop Simulation Of Nano-satellite Constellations](https://www.politesi.polimi.it/handle/10589/214887)
 
